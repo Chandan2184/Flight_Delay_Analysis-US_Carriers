@@ -2,7 +2,7 @@
 
 julia_version = "1.12.1"
 manifest_format = "2.0"
-project_hash = "f9b2914a037c178b29df240cc835214c47a650a2"
+project_hash = "760a76f5b51e7bc46fb856784969b74d2d0d4937"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -353,7 +353,7 @@ uuid = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 version = "0.8.5"
 
 [[deps.FlightEDA]]
-deps = ["ArgParse", "Blink", "CSV", "DataFrames", "Dates", "GR", "IJulia", "Interact", "Logging", "Plots", "Random", "Statistics", "StatsPlots", "TOML", "Test", "WebIO", "Widgets"]
+deps = ["ArgParse", "Blink", "CSV", "DataFrames", "GR", "IJulia", "Interact", "Plots", "StatsPlots", "TOML", "WebIO", "Widgets"]
 path = "."
 uuid = "2f2f1c9e-4a7a-4a80-9c6e-0f3a83376fd2"
 version = "0.1.0"
