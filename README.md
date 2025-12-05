@@ -21,7 +21,7 @@ Dataset Source: https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024
 The repo includes both the **small sample** and the **full raw/cleaned datasets** via Git LFS.
 
 ## Prerequisites
-- Julia 1.10+ (ensure `julia` is in your system's PATH).
+- Julia 1.12+ (ensure `julia` is in your system's PATH).
 - Run once to install deps:
 ```bash
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
