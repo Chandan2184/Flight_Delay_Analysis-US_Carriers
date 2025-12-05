@@ -73,10 +73,6 @@ julia --project=. -e 'using IJulia; notebook()'
 - Cleaned CSV: `data/flight_data_2024_cleaned.csv` (configurable).
 - Plots: PNGs in `plots/` (`1_hist_arrival_delay.png`, …, `12_facet_airline_hour.png`).
 
-## Tests and smoke
-- Full tests: `julia --project=. -e 'using Pkg; Pkg.test()'`
-- Smoke shortcut: `julia --project=. test/smoke_test.jl`
-
 ## Notes
 - Plotting uses Plots.jl (GR backend by default). If GR errors on your system, set `ENV["GKSwstype"]="nul"` or switch backend in `src/FlightEDA/Plotting.jl`.
 - CLI checks for `Project.toml`/`Manifest.toml` and prompts to instantiate if missing.

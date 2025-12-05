@@ -25,7 +25,7 @@ Widgets = "0.6.7"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-Logging = "56ddb016-857b-54e1-8ae2-8b83b18abf6a"
+Logging = "56ddb016-857b-54e1-ae2d-8b83b18abf6a"
 
 [targets]
 test = ["Test", "Logging"]
