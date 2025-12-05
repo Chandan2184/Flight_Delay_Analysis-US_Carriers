@@ -22,3 +22,9 @@ IJulia = "1.33.0"
 Interact = "0.10.5"
 WebIO = "0.8.21"
 Widgets = "0.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
