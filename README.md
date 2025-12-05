@@ -22,9 +22,9 @@ The repo includes both the **small sample** and the **full raw/cleaned datasets*
 
 ## Prerequisites
 - Julia 1.12+ (ensure `julia` is in your system's PATH).
-- Run once to install deps:
+- To set up the environment, run:
 ```bash
-julia --project=. -e 'using Pkg; Pkg.instantiate()'
+julia --project=. -e 'using Pkg; Pkg.resolve(); Pkg.instantiate()'
 ```
 
 ## Run commands (single CLI)
@@ -47,9 +47,9 @@ julia --project=. bin/flight_eda_menu.jl
 ```
 
 ## Install dependencies
-- With `Project.toml`/`Manifest.toml` present, install everything with:
+- With `Project.toml` and `Manifest.toml` present, you can ensure the environment is correctly installed and up-to-date by running:
 ```bash
-julia --project=. -e 'using Pkg; Pkg.instantiate()'
+julia --project=. -e 'using Pkg; Pkg.resolve(); Pkg.instantiate()'
 ```
 - If interactive widgets are used, ensure WebIO’s Jupyter extension is installed (run once):
 ```bash
